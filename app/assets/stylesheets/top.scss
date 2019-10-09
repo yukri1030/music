@@ -8,6 +8,10 @@
   width: 100vw;
   background-color: white;
   border: 1px solid black;
+  background-image: url(background-image/空.jpg);
+  background-size:  cover; 
+  opacity: 0.8;
+  overflow: scroll;
 }
 
 .contents-box{
