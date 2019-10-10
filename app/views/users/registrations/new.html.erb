@@ -6,7 +6,7 @@
     <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
       <%= render "users/shared/error_messages", resource: resource %>
 
-      <div class="field">
+      <div class="field"><br />
       <%= f.label :名前 %><em> (最大6文字まで入力できます)</em><br />
       <%= f.text_field :name, autofocus: true , class: "input-data" %>
       </div>
